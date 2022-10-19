@@ -17,19 +17,20 @@ There is also a hidden / not used feature (maybe for future use or demo/presenta
 - Vitesse (Vite Starter)
 - Vue3 (JS)
 - Vuelidate
-- Pinia as Vue3 state management
+- Pinia as Vue3 state management (optional, not used)
 
 ## How to Run locally:
-- Clone this repository, then unzip contents in #yours_folder (whetever you want and you know)
-- cd #yours_folder
-- run command 'npm install' (or pnpm install if you have, I suggest this, it's faster than normal npm - 'npm install -g pnpm')
-- wait for finish install and run the command 'npm run dev' ('pnpm run dev')
+- Clone this repository, then unzip contents in <code>#yours_folder</code> (whatever you want and you know)
+- Then, go to tis folder <code>cd #yours_folder</code>
+- run command <code>npm install</code> (or <code>pnpm install</code> if you have, I suggest this, it's faster than normal npm - <code>npm install -g pnpm</code>)
+
+- wait for finish install and run the command <code>npm run dev</code> (<code>pnpm run dev</code>)
 - the application should be available on http://localhost:3333/
 
 ## Cypress integration tests
 (optional) there is a bonus feature - cypress integration test which fill the data of form automatically and compares the results. 
 
-To run the cypress tests, go to terminal with root project path and type: './node_modules/.bin/cypress open'
+To run the cypress tests, go to terminal with root project path and type: <code>./node_modules/.bin/cypress open</code>
 
 
 Krzysztof Meyer @2022.
