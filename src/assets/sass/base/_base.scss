@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: $body-margin;
+    min-height: 97vh;
+    background: linear-gradient(180.02deg, $color-bg-gradient-1 0.02%, $color-bg-gradient-2 10.07%, $color-bg-gradient-3 30.82%, $color-bg-gradient-2 51.79%, $color-bg-gradient-4 89.5%, $color-bg-gradient-4 100%);
+}
+
+::selection {
+    background-color: $color-primary;
+    color: $color-white;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}

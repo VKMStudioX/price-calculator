@@ -1,0 +1,11 @@
+{
+    "headerText": "Recruitment task",
+    "description": "deskrypszyn of test",
+    "sendConfirmation": "true",
+    "vat": "19%",
+    "priceNettoEur": "500",
+    "priceBruttoEur": "595",
+    "congratulationsContent1": "Congratulations!",
+    "congratulationsContent2": "You've been successfully filled the form!",
+    "congratulationsContent3": "Refresh the page or click here to try the form another time."
+}

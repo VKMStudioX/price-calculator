@@ -1,0 +1,48 @@
+// COLORS
+$color-primary: #ff7000;
+$color-secondary: #0f0000;
+$color-box-shadow: #272857;
+$color-primary-gradient-1: #ff9f38;
+$color-primary-gradient-2: #E67C09;
+$color-primary-gradient-3: #f08a1d;
+$color-bg-gradient-1: #c2c2c2fd;
+$color-bg-gradient-2: #ccc9c7ea;
+$color-bg-gradient-3: #bebebee5;
+$color-bg-gradient-4: #cfc1a1;
+$color-input-border: #F2F2F6;
+$color-input-focus-border: #D4D4E0;
+$color-input-focus-bg: #FDFDFE;
+$color-input-text: #272857;
+$color-placeholder-text: #2728578C;
+$color-placeholder: #2728578C;
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-primary-text-2: #FFCD97;
+$color-secondary-text-1: #33415c;
+$color-secondary-text-2: #2b3955;
+$color-transparent: transparent;
+$color-invalid: #FF385C;
+$color-warning: #ffc107;
+$color-success: #32C35B;
+$color-success-2: #3ba776;
+$color-remove-option: #ff4444;
+$color-disabled: #c5c2c2;
+$color-read-only: #969696;
+$color-read-only-2: #ebb780;
+
+
+//GRID-MARGINS
+$mobile-margin: 1.25rem;
+$body-margin: 1rem;
+// WIDTHS
+$min-width: 1rem; // 16px
+$max-width: 50rem; // 1216px
+$max-width-mobile: calc(100vw - $mobile-margin - $mobile-margin - $body-margin - $body-margin);
+// FONT
+$default-font-size: 1rem;
+$default-font-weight: 400;
+$default-font-style: normal;
+$default-font-family: Mulish,sans-serif;
+$geogrotesque-font-family: Geogrotesque,sans-serif;
+$poppins-font-family: Poppins,sans-serif;
+$roboto-font-family: Roboto,sans-serif;

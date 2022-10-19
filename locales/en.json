@@ -1,0 +1,35 @@
+{
+    "common": {
+        "headerText1": "Price",
+        "headerText2": "calculator",
+        "form": "Form"
+    },
+    "inputs": {
+        "description": "Description",
+        "enterDescription": "Enter description",
+        "vat": "VAT",
+        "chooseVat": "Choose VAT",
+        "priceNettoEur": "Price Netto EUR",
+        "enterPriceNettoEur": "Enter price netto EUR",
+        "priceBruttoEur": "Price Brutto EUR",
+        "enterPriceBruttoEur": "Please enter price netto EUR, then there will be displayed price Brutto Eur",
+    },
+    "validations": {
+        "descriptionRequired": "Text is required",
+        "descriptionMinLength": "You can't enter less than 5 characters",
+        "descriptionMaxLength": "You can't enter more than 255 characters",
+        "sendConfirmationRequired": "Confirmation is required",
+        "vatRequired": "VAT is required",
+        "priceNettoEur": "Please, input number"
+    },
+    "congratulations": {
+        "header": "Congratulations!",
+        "content1": "You've been successfully filled the form!",
+        "content2": "Refresh the page or",
+        "content-link": "click here",
+        "content3": "to try the form another time."
+    },
+    "button": {
+        "submit": "Submit"
+    }
+}

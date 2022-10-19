@@ -1,0 +1,198 @@
+.margin-right-2 {
+  margin-right: 2rem;
+}
+
+.margin-right-05 {
+  margin-right: 0.5rem;
+}
+
+.margin-right-5 {
+  margin-right: 5rem;
+}
+
+.margin-left-05 {
+  margin-right: 0.5rem;
+}
+
+.margin-left-2 {
+  margin-left: 2rem;
+}
+
+.margin-top-05 {
+  margin-top: 0.5rem;
+}
+.margin-top-1 {
+  margin-top: 1rem;
+}
+.margin-top-2 {
+  margin-top: 2rem;
+}
+.margin-top-3 {
+  margin-top: 3rem;
+}
+
+.margin-bottom-05 {
+  margin-bottom: 0.5rem;
+}
+.margin-bottom-1 {
+  margin-bottom: 1rem;
+}
+.margin-bottom-2 {
+  margin-bottom: 2rem;
+}
+.margin-bottom-3 {
+  margin-bottom: 3rem;
+}
+
+.padding-05 {
+  padding: 0.5rem;
+}
+
+.padding-1 {
+  padding: 1rem;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.center {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+
+  &--height {
+    min-height: 100vh;
+  }
+}
+
+.opacity-full {
+  opacity: 1 !important;
+}
+
+.color-primary {
+  color: $color-primary;
+}
+
+.color-input-text {
+  color: $color-input-text;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.rotate-180 {
+  transform: rotate(180deg) translateY(2px);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.height-max-content {
+  height: max-content !important;
+}
+
+.grid-order-0 {
+  order: 0;
+}
+.grid-order-1 {
+  order: 1;
+}
+.grid-order-2 {
+  order:2;
+}
+.grid-order-3 {
+  order: 3;
+}
+.grid-order-4 {
+  order: 4;
+}
+.grid-order-5 {
+  order:5;
+}
+.grid-order-6 {
+   order: 6;
+ }
+.grid-order-7 {
+  order: 7;
+}
+.grid-order-8 {
+  order:8;
+}
+.grid-order-9 {
+  order: 9;
+}
+.grid-order-10 {
+  order: 10;
+}
+
+.grid-mobile-order-0 {
+  @include respond(sm) {
+    order: 0;
+  }
+}
+.grid-mobile-order-1 {
+  @include respond(sm) {
+    order: 1;
+  }
+}
+.grid-mobile-order-2 {
+  @include respond(sm) {
+    order: 2;
+  }
+}
+.grid-mobile-order-3 {
+  @include respond(sm) {
+    order: 3;
+  }
+}
+.grid-mobile-order-4 {
+  @include respond(sm) {
+    order: 4;
+  }
+}
+.grid-mobile-order-5 {
+  @include respond(sm) {
+    order: 5;
+  }
+}
+.grid-mobile-order-6 {
+  @include respond(sm) {
+    order: 6;
+  }
+}
+.grid-mobile-order-7 {
+  @include respond(sm) {
+    order: 7;
+  }
+}
+.grid-mobile-order-8 {
+  @include respond(sm) {
+    order: 8;
+  }
+}
+.grid-mobile-order-9 {
+  @include respond(sm) {
+    order: 9;
+  }
+}
+.grid-mobile-order-10 {
+  @include respond(sm) {
+    order: 10;
+  }
+}

@@ -1,0 +1,57 @@
+.button {
+  font-size: $default-font-size;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  transition: 0.25s all ease-in-out;
+  margin: 0.25rem;
+  font-family: $default-font-family;
+
+  @include respond(sm) {
+    font-size: $default-font-size;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &--primary {
+    background: linear-gradient(
+                    276.64deg,
+                    $color-primary 6.14%,
+                    rgba($color-primary-gradient-1, 1) 93.01%
+    );
+
+
+    box-shadow: 0 0.25rem 1rem rgba($color-primary, 0.21);
+    color: $color-white;
+    border: 0.125rem solid transparent;
+    border-radius: 0.25rem;
+
+    &:enabled:hover {
+      background: linear-gradient(
+                      275.04deg,
+                      $color-primary-gradient-2 3.73%,
+                      rgba($color-primary-gradient-3, 1) 95.48%
+      );
+      box-shadow: 0 0.5rem 1.5rem rgba($color-primary-gradient-2, 0.3);
+      color: $color-white;
+      cursor: pointer;
+    }
+
+    &:disabled {
+      background: $color-disabled;
+      box-shadow: none;
+    }
+  }
+
+  &--radius {
+    border-radius: 2.5rem;
+  }
+
+
+}
+

@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Black+Ops+One);
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,500,600,700,800");
+
+body {
+    font-family: $default-font-family;
+    font-weight: $default-font-weight;
+    font-style: $default-font-style;
+    color: $color-secondary;
+}
+
+.text-primary {
+    color: $color-primary;
+}
+
+.text-secondary {
+    color: $color-secondary;
+}
+
+.text-secondary-1 {
+    color: $color-secondary-text-1;
+}
+
+.text-secondary-2 {
+    color: $color-secondary-text-2;
+}
+
+.text-secondary-55-percent {
+    color: rgba($color-secondary, 0.55)
+}
+
+.text-invalid {
+    color: $color-invalid;
+}
+
+.text-success {
+    color: $color-success;
+}
+
+.text-white {
+    color: $color-white;
+}
+
+.text-black {
+    color: $color-black;
+}
+
+.text-read-only-2 {
+    color: $color-read-only-2;
+}
+
+.text-extra-small {
+    font-size: 0.75rem; // 12px
+}
+
+.text-smaller {
+    font-size: 0.813rem; // 13px
+}
+
+.text-small {
+    font-size: 0.875rem; // 14px
+}
+
+.text-normal {
+    font-size: $default-font-size; // 16px
+    @include respond(sm) {
+        font-size: 0.875rem; // 14px
+    }
+}
+
+.text-almost-bigger {
+    font-size: 1.063rem; // 17px
+}
+
+.text-bigger {
+    font-size: 1.125rem; // 18px
+    @include respond(sm) {
+        font-size: 0.875rem; // 14px
+    }
+}
+
+.text-big {
+    font-size: 1.25rem; // 20px
+    @include respond(sm) {
+        font-size: 0.75rem; // 12px
+    }
+}
+
+.text-big-2 {
+    font-size: 1.313rem; // 21px
+    @include respond(md) {
+        font-size: 0.875rem; // 14px na mobile
+    }
+}
+
+.text-more-big {
+    font-size: 1.5rem; // 24px
+}
+
+.text-more-big-2 {
+    font-size: 1.625rem; // 26px
+}
+
+.text-extra-big {
+    font-size: 1.875rem; // 30px
+    @include respond(sm) {
+        font-size: 1.375rem; // 22px
+    }
+}
+
+.text-super-big {
+    font-size: 2.25rem; //36px
+}
+
+.text-no-transform {
+    text-transform: none;
+}
+
+.text-style-normal {
+    font-style: normal;
+}
+
+.text-style-italic {
+    font-style: italic;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-button-link {
+    font-size: $default-font-size;
+    @include respond(md) {
+        font-size: 0.75rem; //12px
+    }
+}
+
+.text-narrow {
+    font-weight: 100;
+}
+
+.text-semi-bold {
+    font-weight: 600;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-extra-bold {
+    font-weight: 800;
+}
+
+.text-geogrotesque {
+    font-family: $geogrotesque-font-family
+}
+
+.text-wrap {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.text-no-decoration {
+    text-decoration: none;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
+.text-line-through-primary-solid-2px {
+    text-decoration: line-through $color-primary solid 0.125rem;
+    -webkit-text-decoration: line-through $color-primary solid 0.125rem;
+    -webkit-text-decoration-line: line-through;
+    -webkit-text-decoration-color: $color-primary;
+    -webkit-text-decoration-style: solid;
+    text-decoration-thickness: 0.125rem;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-link {
+    color: $color-primary;
+    font-weight: 600;
+    text-decoration: none !important;
+    &:hover {
+        color: rgba($color-primary, 0.74)
+    }
+}
+
+.letter-spacing-6-percent {
+    letter-spacing: 0.06rem;
+}
+
+.heading-primary {
+    font-size: 2*$default-font-size;
+}
+
+.heading-secondary {
+    font-size: 1.5rem;
+}
+
+.heading-tertiary {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
